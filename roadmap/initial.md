@@ -1,1 +1,0 @@
-- `yarn create vite .` This will sccafold our initial template code. It comes with eslintrc.cjs, tsconfig.json, vite.config.ts files.
