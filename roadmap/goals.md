@@ -4,6 +4,7 @@
 - tailwind css
 - auto formatter on save
 - make hello world landing page
+- pipedream to discord automation
 - initiate shadcn button component
 - initiate storybook with a button
 - integrate jest for a button
