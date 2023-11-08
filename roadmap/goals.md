@@ -1,0 +1,22 @@
+#### Each of the goals will be fulfilled in unit PRs.
+
+- vite+ts
+- tailwind css
+- make hello world landing page
+- initiate shadcn button component
+- initiate storybook with a button
+- integrate jest for a button
+- install husky
+- integrate dexie for indexed db manager
+- write CRUD for indexed db manager
+- make react components for the app
+- initiate possible routes
+- make pages for the add
+- give “admin” as username and password for new user
+- integrate signup and login
+- complete the functional UI
+- complete jest for the app
+- initiate Cypress testing
+- github actions
+- CICD
+- integrate docker
