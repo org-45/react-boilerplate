@@ -3784,6 +3784,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/dexie@npm:^1.3.1":
+  version: 1.3.32
+  resolution: "@types/dexie@npm:1.3.32"
+  checksum: 41177c4fc48c0a9ac98475e4b203ce2df4643004a201d67b5bfc37869091a78df9f3e14c4b6742d669b9d417b09f70b6fb0b935f5f46cc85066239b637f97537
+  languageName: node
+  linkType: hard
+
 "@types/doctrine@npm:^0.0.3":
   version: 0.0.3
   resolution: "@types/doctrine@npm:0.0.3"
@@ -5493,6 +5500,13 @@ __metadata:
     detect: bin/detect-port.js
     detect-port: bin/detect-port.js
   checksum: b48da9340481742547263d5d985e65d078592557863402ecf538511735e83575867e94f91fe74405ea19b61351feb99efccae7e55de9a151d5654e3417cea05b
+  languageName: node
+  linkType: hard
+
+"dexie@npm:^3.2.4":
+  version: 3.2.4
+  resolution: "dexie@npm:3.2.4"
+  checksum: 4e5294a954118b6862c864b8c3970904a1733daebcd919488624520696411e2e81ed1bceeac3634c5c15a21e37ce4b8502ed41c4edfbc5ba3f5925c34d56497b
   languageName: node
   linkType: hard
 
@@ -8889,6 +8903,7 @@ __metadata:
     "@storybook/react": ^7.5.3
     "@storybook/react-vite": ^7.5.3
     "@storybook/testing-library": ^0.2.2
+    "@types/dexie": ^1.3.1
     "@types/node": ^20.9.0
     "@types/react": ^18.2.15
     "@types/react-dom": ^18.2.7
@@ -8898,6 +8913,7 @@ __metadata:
     autoprefixer: ^10.4.16
     class-variance-authority: ^0.7.0
     clsx: ^2.0.0
+    dexie: ^3.2.4
     eslint: ^8.45.0
     eslint-plugin-react-hooks: ^4.6.0
     eslint-plugin-react-refresh: ^0.4.3
