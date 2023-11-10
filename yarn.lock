@@ -3683,6 +3683,42 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tanstack/eslint-plugin-query@npm:^5.6.0":
+  version: 5.6.0
+  resolution: "@tanstack/eslint-plugin-query@npm:5.6.0"
+  dependencies:
+    "@typescript-eslint/utils": ^5.54.0
+  peerDependencies:
+    eslint: ^8.0.0
+  checksum: dec80d44d33bf7c8e911cbc14eacd4c7ed505d6d40c9d3788db883773d522423f5ddfc3bb734005063dd08541d1235fb001fb8aebe4d5c9e326cf38c1844d9e5
+  languageName: node
+  linkType: hard
+
+"@tanstack/query-core@npm:5.8.1":
+  version: 5.8.1
+  resolution: "@tanstack/query-core@npm:5.8.1"
+  checksum: b2b4cc0e31eabb2b59297f9b90e3bb1eec9c23c156a9dad12f230e6ba12478bd34fcc9a37db9df3e74ef4241ea9feede807920963bdeaf5b6b72c3bf93576107
+  languageName: node
+  linkType: hard
+
+"@tanstack/react-query@npm:^5.8.1":
+  version: 5.8.1
+  resolution: "@tanstack/react-query@npm:5.8.1"
+  dependencies:
+    "@tanstack/query-core": 5.8.1
+  peerDependencies:
+    react: ^18.0.0
+    react-dom: ^18.0.0
+    react-native: "*"
+  peerDependenciesMeta:
+    react-dom:
+      optional: true
+    react-native:
+      optional: true
+  checksum: 0ab9591f05810baa454f61d8ca3c451ad1087a8d33e2268e6f91f75b1096d7d265110806d78361c512f327884f93dab9a54fcb7a0dd2b54afcf34c8e6dc60616
+  languageName: node
+  linkType: hard
+
 "@testing-library/dom@npm:^9.0.0":
   version: 9.3.3
   resolution: "@testing-library/dom@npm:9.3.3"
@@ -4310,7 +4346,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/utils@npm:^5.45.0":
+"@typescript-eslint/utils@npm:^5.45.0, @typescript-eslint/utils@npm:^5.54.0":
   version: 5.62.0
   resolution: "@typescript-eslint/utils@npm:5.62.0"
   dependencies:
@@ -8938,6 +8974,8 @@ __metadata:
     "@storybook/react": ^7.5.3
     "@storybook/react-vite": ^7.5.3
     "@storybook/testing-library": ^0.2.2
+    "@tanstack/eslint-plugin-query": ^5.6.0
+    "@tanstack/react-query": ^5.8.1
     "@types/dexie": ^1.3.1
     "@types/node": ^20.9.0
     "@types/react": ^18.2.15

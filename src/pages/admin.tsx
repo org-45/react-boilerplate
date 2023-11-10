@@ -41,6 +41,14 @@ function AdminDashboard() {
                   Users
                 </a>
               </li>
+              <li>
+                <a
+                  href="/market"
+                  className="block text-lg font-semibold text-white hover:text-blue-500"
+                >
+                  Market
+                </a>
+              </li>
               <li className="border-t border-gray-700 pt-3"></li>
             </ul>
           </div>
