@@ -1,25 +1,31 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from '@playwright/test'
 
-test.describe('Navbar Tests', () => {
-  test.beforeEach(async ({ page }) => {
-	await page.goto('/');
-  });
+test.describe('Navbar Component', () => {
+  test('should show the links on desktop and toggle mobile menu', async ({ page }) => {
+    await page.goto('/')
 
-  test('should contain the correct nav items', async ({ page }) => {
-    const homeLink = await page.locator('a[href="#home"]');
-    await expect(homeLink).toBeVisible();
-    await expect(homeLink).toHaveText('Home');
+    await page.setViewportSize({ width: 1280, height: 800 })
+    await expect(page.locator('nav .md\\:flex a[href="#home"]')).toBeVisible()
+    await expect(page.locator('nav .md\\:flex a[href="/market"]')).toBeVisible()
+    await expect(page.locator('nav .md\\:flex a[href="/admin"]')).toBeVisible()
+    await expect(page.locator('nav .md\\:flex a[href="/login"]')).toBeVisible()
 
-    const aboutLink = await page.locator('a[href="#about"]');
-    await expect(aboutLink).toBeVisible();
-    await expect(aboutLink).toHaveText('About');
+    await page.setViewportSize({ width: 375, height: 667 })
+    await expect(page.locator('nav .md\\:hidden a[href="#home"]')).toBeHidden()
+    await expect(page.locator('nav .md\\:hidden a[href="/market"]')).toBeHidden()
+    await expect(page.locator('nav .md\\:hidden a[href="/admin"]')).toBeHidden()
+    await expect(page.locator('nav .md\\:hidden a[href="/login"]')).toBeHidden()
 
-    const servicesLink = await page.locator('a[href="#services"]');
-    await expect(servicesLink).toBeVisible();
-    await expect(servicesLink).toHaveText('Services');
+    await page.click('button:text("≡")')
+    await expect(page.locator('nav .md\\:hidden a[href="#home"]')).toBeVisible()
+    await expect(page.locator('nav .md\\:hidden a[href="/market"]')).toBeVisible()
+    await expect(page.locator('nav .md\\:hidden a[href="/admin"]')).toBeVisible()
+    await expect(page.locator('nav .md\\:hidden a[href="/login"]')).toBeVisible()
 
-    const contactLink = await page.locator('a[href="#contact"]');
-    await expect(contactLink).toBeVisible();
-    await expect(contactLink).toHaveText('Contact');
-  });
-});
+    await page.click('button:text("≡")')
+    await expect(page.locator('nav .md\\:hidden a[href="#home"]')).toBeHidden()
+    await expect(page.locator('nav .md\\:hidden a[href="/market"]')).toBeHidden()
+    await expect(page.locator('nav .md\\:hidden a[href="/admin"]')).toBeHidden()
+    await expect(page.locator('nav .md\\:hidden a[href="/login"]')).toBeHidden()
+  })
+})
