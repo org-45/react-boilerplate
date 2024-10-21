@@ -14,9 +14,9 @@ function Navbar() {
 
         <div className="hidden md:flex space-x-4">
           <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#services">Services</a>
-          <a href="#contact">Contact</a>
+          <a href="/market">Market</a>
+          <a href="/admin">Admin</a>
+          <a href="/login">Login</a>
         </div>
 
         <div className="md:hidden">
@@ -32,9 +32,9 @@ function Navbar() {
       {isMobileMenuOpen && (
         <div className="md:hidden flex p-4 text-center">
           <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#services">Services</a>
-          <a href="#contact">Contact</a>
+          <a href="/market">Market</a>
+          <a href="/admin">Admin</a>
+          <a href="/login">Login</a>
         </div>
       )}
     </nav>
