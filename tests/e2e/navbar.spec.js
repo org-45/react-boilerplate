@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test'
 
 test.describe('Navbar Component', () => {
   test('should show the links on desktop and toggle mobile menu', async ({ page }) => {
-    await page.goto('/')
+    await page.goto('http://localhost:5173/')
 
     await page.setViewportSize({ width: 1280, height: 800 })
     await expect(page.locator('nav .md\\:flex a[href="#home"]')).toBeVisible()

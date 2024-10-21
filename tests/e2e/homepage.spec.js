@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test.describe('Homepage Tests', () => {
   test.beforeEach(async ({ page }) => {
-	await page.goto('/');
+	await page.goto('http://localhost:5173/');
   });
 
   test('should display project showcase text on the homepage', async ({ page }) => {
