@@ -20,7 +20,7 @@ jobs:
         options: >-
           --health-cmd "curl --fail http://localhost:5173 || exit 1"
           --health-interval 10s
-          --health-timeout 5s
+          --health-timeout 20s
           --health-retries 5
 
     steps:
