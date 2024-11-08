@@ -1,0 +1,36 @@
+//some of the react concepts are highlighted by these tags, make sure to install the extension: TODO Highlight
+
+{
+	"todohighlight.keywords": [
+		{
+			"text": "COMPONENT",
+			"color": "#FF5733",
+			"backgroundColor": "#FFD1BA",
+			"description": "Used to identify React Components"
+		},
+		{
+			"text": "HOOK",
+			"color": "#121F57",
+			"backgroundColor": "#BAFFD1",
+			"description": "Used to identify React Hooks"
+		},
+		{
+			"text": "STATE",
+			"color": "#3357FF",
+			"backgroundColor": "#BAD1FF",
+			"description": "Used to identify React State management"
+		},
+		{
+			"text": "EFFECT",
+			"color": "#FF33A1",
+			"backgroundColor": "#FFD1E8",
+			"description": "Used to identify useEffect and other side effects"
+		},
+		{
+			"text": "CORE",
+			"color": "#651A2B",
+			"backgroundColor": "#FFD1E8",
+			"description": "Core React concepts"
+		}
+	]
+}
