@@ -1,3 +1,4 @@
+//COMPONENT
 import { useState } from 'react'
 
 function AdminBar() {

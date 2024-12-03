@@ -30,3 +30,11 @@ dist-ssr
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+
+
+
+.nx/cache
+.nx/workspace-data
+
+storybook-static
+vite.config.*.timestamp*
