@@ -1,0 +1,15 @@
+// BETTERER RESULTS V2.
+// 
+// If this file contains merge conflicts, use `betterer merge` to automatically resolve them:
+// https://phenomnomnominal.github.io/betterer/docs/results-file/#merge
+//
+exports[`new eslint rules`] = {
+  value: `{
+    "src/dexie/dexieTester.ts:2583999898": [
+      [5, 2, 11, "Unexpected console statement.", "3870399096"],
+      [9, 2, 11, "Unexpected console statement.", "3870399096"],
+      [13, 2, 11, "Unexpected console statement.", "3870399096"],
+      [17, 2, 11, "Unexpected console statement.", "3870399096"]
+    ]
+  }`
+};

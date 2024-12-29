@@ -1,5 +1,4 @@
 // CountryList.tsx
-import React from 'react'
 import { useCountries } from '../hooks/useMarketMetrics'
 
 const CountryList: React.FC = () => {

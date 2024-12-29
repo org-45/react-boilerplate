@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "testCache": {
+    "new eslint rules": {
+      "src/App.tsx": "29738149708c3b88546b357c9e2e5b7780d1778acb5704f780",
+      "src/components/AdminBar.tsx": "2973814970dce225b4e69ab641e54c3246ec075aac8f36c8f0",
+      "src/components/Footer.tsx": "2973814970a13f0f046d51651af95cdbec079c41202493395e",
+      "src/components/Hero.tsx": "2973814970b0da4d116e5fa2deed4b15a832dba48ab7fe245b",
+      "src/components/Layout.tsx": "2973814970423920581",
+      "src/components/Navbar.tsx": "29738149706f28d9572ae91d3ed6767bc1621c7fdd2a2ac9d4",
+      "src/components/ui/button.tsx": "29738149707d4bd20081611e9b79bb73447deabdb34331fadd",
+      "src/dexie/dexie.ts": "29738149701538de0409db2af9884b1d0964ba880aed21cd7a",
+      "src/dexie/dexieTester.ts": "2973814970a717399b3d5d453500cb52dd41b66c7cd517985f",
+      "src/hooks/useMarketMetrics.ts": "2973814970ff923f21c7acabecbc18632e05524ae011ab8e5a",
+      "src/lib/utils.ts": "2973814970ec79801fe9cdd7711f6dbef26678a134c634a8be",
+      "src/main.tsx": "29738149702644569803",
+      "src/pages/admin.tsx": "297381497030ea62dc55a9a6b0aaf2c3b8ea967e4d2468bbb1",
+      "src/pages/homepage.tsx": "29738149707cb766ae4e59556c74c99ba40708f625bbffef95",
+      "src/pages/login.tsx": "29738149709e110d38596878af004d807ccf11c12de486fdd7",
+      "src/pages/market.tsx": "29738149701467077276",
+      "src/stories/Button.stories.ts": "29738149707a68cbfec557e479d5bb77ef4238d031b934a6ab",
+      "src/stories/Button.tsx": "2973814970f973606f9a2c64880419739289876dc857e4bef3",
+      "src/stories/Header.stories.ts": "2973814970458391a3501e865b0d6c294c9b213a57c53468e3",
+      "src/stories/Header.tsx": "29738149702d9da01f4b6d0f76582c31951244021e2399f45c",
+      "src/stories/Page.stories.ts": "297381497069852a2bdc001d5688163fe9227784722ae2a375",
+      "src/stories/Page.tsx": "29738149702446572811",
+      "src/vite-env.d.ts": "297381497011f02fe2a0061d6e6e1f271b21da95423b448b32"
+    }
+  }
+}
