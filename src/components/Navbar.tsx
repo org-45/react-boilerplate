@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import ThemeButton from './ThemeButton'
 
 function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
@@ -8,7 +9,7 @@ function Navbar() {
   }
 
   return (
-    <nav className="bg-black text-white">
+    <nav className="bg-black text-white dark:bg-white dark:text-black">
       <div className="container mx-auto flex justify-between items-center p-4">
         <div className="text-2xl font-semibold">Your Logo</div>
 
@@ -17,6 +18,7 @@ function Navbar() {
           <a href="/market">Market</a>
           <a href="/admin">Admin</a>
           <a href="/login">Login</a>
+					<ThemeButton/>
         </div>
 
         <div className="md:hidden">
