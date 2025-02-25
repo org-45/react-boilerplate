@@ -1,27 +1,27 @@
 {
   "compilerOptions": {
-		"allowSyntheticDefaultImports": true,
-    "target": "ES2020",
+    "allowSyntheticDefaultImports": true,
+    "target": "esnext",
     "useDefineForClassFields": true,
-    "lib": ["ES2020", "DOM", "DOM.Iterable"],
-    "module": "ES2020",
+    "lib": ["esnext", "DOM", "DOM.Iterable"],
     "skipLibCheck": true,
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
     },
-    "moduleResolution": "node",
+    "moduleResolution":"node",
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
+    "types": ["@types/react", "@types/react-dom"],
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src",".betterer.ts"],
+  "include": ["src", ".betterer.ts"],
   "references": [
     {
       "path": "./tsconfig.node.json"

@@ -1,5 +1,5 @@
 // src/App.js
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 
 import HomePage from './pages/homepage'

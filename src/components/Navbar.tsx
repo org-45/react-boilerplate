@@ -25,12 +25,12 @@ function Navbar({ children, isAdmin = false }: NavbarProps) {
   return (
     <nav className="bg-black text-white dark:bg-white dark:text-black">
       <div className="container mx-auto flex justify-between items-center p-4">
-        <a href="/#home">
+        <a href="/">
           <div className="text-2xl font-semibold">Your Logo</div>
         </a>
 
         <div className="hidden md:flex space-x-4">
-          <a href="#home">Home</a>
+          <a href="/">Home</a>
           <a href="/market">Market</a>
           <a href="/admin">Admin</a>
           <a href="/login">Login</a>
